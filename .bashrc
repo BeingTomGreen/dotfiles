@@ -9,7 +9,7 @@ alias log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset 
 alias reset='git reset HEAD --hard'
 
 # Navigation
-alias lh='ls -l'
+alias l='ls -l'
 alias ..='cd ../'
 alias ...='cd ../../'
 alias .ls='cd ../ && ls -l'
