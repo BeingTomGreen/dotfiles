@@ -13,6 +13,8 @@ alias l='ls -l'
 alias ..='cd ../'
 alias ...='cd ../../'
 alias .ls='cd ../ && ls -l'
+alias c='clear'
+alias cls='clear'
 
 # Composer
 alias ci='composer install'
