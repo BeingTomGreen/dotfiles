@@ -21,5 +21,5 @@ alias ci='composer install'
 alias cu='composer update'
 alias csu='composer selfupdate'
 # Handy one-liner to stash your current changes, run composer update and push the changes, then pop the stash...
-# Not working perfectly at the minute, if you have deleted files it seems to mess up a little
+# Not working perfectly at the minute, if you have deleted files which have been changed in the remote it has merge issues.
 alias cup='git stash && cu && git add . && git commit -m "Composer Update." && push && git stash pop'
