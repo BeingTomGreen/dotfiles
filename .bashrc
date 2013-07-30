@@ -7,6 +7,7 @@ alias pp='pull && push'
 alias log="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset%Cgreen(%cr by %cn)%Creset' --abbrev-commit --date=relative"
 # Basic reset, this is the one I use the most... maybe not ideal, but it does work
 alias reset='git reset HEAD --hard'
+alias stash='git stash'
 
 # Navigation
 alias l='ls -l'
@@ -20,6 +21,3 @@ alias cls='clear'
 alias ci='composer install'
 alias cu='composer update'
 alias csu='composer selfupdate'
-# Handy one-liner to stash your current changes, run composer update and push the changes, then pop the stash...
-# Not working perfectly at the minute, if you have deleted files which have been changed in the remote it has merge issues.
-alias cup='git stash && cu && git add . && git commit -m "Composer Update." && push && git stash pop'
