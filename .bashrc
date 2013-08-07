@@ -1,4 +1,5 @@
 # Git
+alias g='git'
 alias status='git status'
 alias s='git status'
 alias pull='git pull --rebase origin master'
