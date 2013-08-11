@@ -1,6 +1,6 @@
 # Git
 alias g='git'
-alias gs='git status sb'
+alias gs='git status -sb'
 alias gstatus='git status -sb'
 alias gpush='git push'
 alias gpull='git pull --rebase origin master'
