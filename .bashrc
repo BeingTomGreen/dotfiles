@@ -15,13 +15,14 @@ alias gco='git checkout'
 alias gb='git branch'
 alias gc='git commit'
 
-# Navigation
+# Navigation & Terminal stuff
 alias l='ls -l'
 alias ..='cd ../'
 alias ...='cd ../../'
 alias .ls='cd ../ && ls -l'
 alias c='clear'
 alias cls='clear'
+alias close='exit'
 
 # Composer
 alias ci='composer install'
