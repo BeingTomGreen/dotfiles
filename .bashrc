@@ -13,6 +13,7 @@ alias gr='git remote'
 alias gcl='git clone'
 alias gco='git checkout'
 alias gb='git branch'
+alias gc='git commit'
 
 # Navigation
 alias l='ls -l'
