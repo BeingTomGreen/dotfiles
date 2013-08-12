@@ -14,6 +14,7 @@ alias gcl='git clone'
 alias gco='git checkout'
 alias gb='git branch'
 alias gc='git commit'
+alias ga='git add'
 
 # Navigation & Terminal stuff
 alias l='ls -l'
@@ -23,6 +24,7 @@ alias .ls='cd ../ && ls -l'
 alias c='clear'
 alias cls='clear'
 alias close='exit'
+alias quit='exit'
 
 # Composer
 alias ci='composer install'
