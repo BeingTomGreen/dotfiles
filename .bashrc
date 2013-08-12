@@ -16,6 +16,7 @@ alias gcl='git clone'
 alias gco='git checkout'
 alias gb='git branch'
 alias gc='git commit -m'
+alias gi='git init'
 
 # Navigation & Terminal stuff
 alias l='ls -l'
