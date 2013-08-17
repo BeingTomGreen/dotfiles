@@ -32,3 +32,6 @@ alias quit='exit'
 alias ci='composer install'
 alias cu='composer update'
 alias csu='composer selfupdate'
+
+# Vagrant
+alias v='vagrant'
