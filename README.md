@@ -2,7 +2,7 @@ My dotfiles, since I generally use Windows they are somewhat lacking. I will get
 
 These are heavily based on other peoples dotfiles, particularly [Holman's](https://github.com/holman/dotfiles/blob/master/git/aliases.zsh) and [Charlie Somerville's](https://github.com/charliesome/conf/blob/master/config/bash_profile).
 
-### Config
+#### Config
 
 Currently I have autocrlf set to true, I assume this will break non-windows boxes..
 
