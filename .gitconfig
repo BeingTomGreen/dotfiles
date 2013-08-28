@@ -3,3 +3,5 @@
 	email = kingofcuddles@gmail.com
 [push]
 	default = simple
+[core]
+	autocrlf = true
