@@ -2,7 +2,7 @@
 
 Since I generally use Windows they are somewhat lacking. I will get around to dropping Windows at some point..
 
-These are heavily based on other peoples dotfiles, particularly those of [Holman](https://github.com/holman/dotfiles/blob/master/git/aliases.zsh) and [Charlie Somerville](https://github.com/charliesome/conf/blob/master/config/bash_profile).
+These are heavily based on other peoples dotfiles, particularly those of [Holman](https://github.com/holman/dotfiles) and [Charlie Somerville](https://github.com/charliesome/conf).
 
 #### Config
 
