@@ -31,7 +31,7 @@ alias restart='shutdown -r -t 0'
 alias ci='composer install'
 alias cu='composer update'
 alias csu='composer selfupdate'
-alias cdump='composer dump-autoload'
+alias cdump='composer dump-autoload --optimize'
 
 # Vagrant
 alias v='vagrant'
