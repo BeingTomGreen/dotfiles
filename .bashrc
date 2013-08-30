@@ -12,6 +12,7 @@ alias pull='git pull'
 alias rebase='git pull --reabse'
 alias commit='git commit -sm'
 alias init='git init'
+alias ignored='git ls-files -o -i --exclude-standard'
 
 # Navigation & Terminal stuff
 alias l='ls -l'
