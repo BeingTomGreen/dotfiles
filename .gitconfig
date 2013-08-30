@@ -1,8 +1,24 @@
 [user]
 	name = Tom Green
 	email = kingofcuddles@gmail.com
+
 [push]
 	default = simple
+
 [core]
 	autocrlf = true
 	excludesfile = /path/to/.gitignore
+
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+
+[color]
+	ui = auto
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
