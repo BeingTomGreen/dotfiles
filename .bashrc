@@ -7,7 +7,7 @@ alias stash='git stash'
 alias reset='git reset HEAD --hard'
 alias add='git add'
 alias pull='git pull'
-alias rebase='git pull --reabse'
+alias rebase='git pull --rebase'
 alias commit='git commit -sm'
 alias push='git push'
 
