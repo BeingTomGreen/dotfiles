@@ -4,16 +4,22 @@ alias init='git init'
 alias s='git status -sb'
 alias status='git status -sb'
 alias stash='git stash'
-alias add='git add -A'
+alias reset='git reset HEAD --hard'
+alias add='git add'
 alias pull='git pull'
 alias rebase='git pull --reabse'
 alias commit='git commit -sm'
 alias push='git push'
 
-# Handy git commands
-alias reset='git reset HEAD --hard'
+# Handy git utilities
 alias ignored='git ls-files -o -i --exclude-standard'
 alias log='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset%Cgreen(%cr by %cn)%Creset" --abbrev-commit --date=relative'
+
+# Misc git one-liners
+alias adda='git add -A'
+alias pullom='git pull origin master'
+alias rebaseom='git pull --rebase origin master'
+alias pushom='git push origin master'
 
 # Navigation & Terminal stuff
 alias l='ls -l'
