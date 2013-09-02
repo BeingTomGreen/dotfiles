@@ -1,18 +1,19 @@
-# Git
+# Generic git commands
 alias g='git'
+alias init='git init'
 alias s='git status -sb'
 alias status='git status -sb'
-alias log='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset%Cgreen(%cr by %cn)%Creset" --abbrev-commit --date=relative'
-# Basic reset, this is the one I use the most... maybe not ideal, but it does work
-alias reset='git reset HEAD --hard'
 alias stash='git stash'
 alias add='git add -A'
 alias pull='git pull'
-alias push='git push'
 alias rebase='git pull --reabse'
 alias commit='git commit -sm'
-alias init='git init'
+alias push='git push'
+
+# Handy git commands
+alias reset='git reset HEAD --hard'
 alias ignored='git ls-files -o -i --exclude-standard'
+alias log='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset%Cgreen(%cr by %cn)%Creset" --abbrev-commit --date=relative'
 
 # Navigation & Terminal stuff
 alias l='ls -l'
