@@ -43,3 +43,5 @@ alias cdump='composer dump-autoload --optimize'
 
 # Vagrant
 alias v='vagrant'
+alias vhalt="vagrant halt"
+alias vssh="vagrant ssh"
