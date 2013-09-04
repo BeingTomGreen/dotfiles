@@ -2,6 +2,7 @@
 alias g='git'
 alias init='git init'
 alias s='git status -sb'
+alias clone='git clone'
 alias status='git status -sb'
 alias stash='git stash'
 alias reset='git reset HEAD --hard'
