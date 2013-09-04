@@ -24,6 +24,7 @@ alias pushom='git push origin master'
 
 # Navigation & Terminal stuff
 alias l='ls -l'
+alias la='ls -al'
 alias ..='cd ../'
 alias ...='cd ../../'
 alias .ls='cd ../ && ls -l'
