@@ -6,8 +6,8 @@
 	default = simple
 
 [core]
-	autocrlf = true
-	excludesfile = /path/to/.gitignore
+	autocrlf = input
+	excludesfile = ~/.gitignore
 
 [alias]
 	st = status
