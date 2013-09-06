@@ -3,15 +3,14 @@
 # install.sh
 # This script creates symlinks to your existing dotfiles
 
-########## Variables
 dir=~/Dropbox/Work/Repos/dotfiles # Where are your dotfiles
 olddir=~/dotfiles_backup # Location to backup any existing dotfiles
 files="bashrc gitconfig gitignore" # List of files/folders to symlink in homedir
 
 # Create dotfiles_backup in homedir
-echo -n "Creating $olddir to backup of any existing dotfiles in ~ ..."
+echo -n "Creating $olddir to backup of any existing dotfiles..."
 mkdir -p $olddir
-echo "Done"
+echo "Done..."
 
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks from the homedir to any files in the ~/dotfiles directory specified in $files
 for file in $files; do
