@@ -32,7 +32,7 @@ alias c='clear'
 alias cls='clear'
 alias close='exit'
 alias quit='exit'
-alias db 'cd ~/Dropbox'
+alias db='cd ~/Dropbox'
 
 # Composer
 alias ci='composer install'
