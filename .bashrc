@@ -32,6 +32,7 @@ alias c='clear'
 alias cls='clear'
 alias close='exit'
 alias quit='exit'
+alias dropbox 'cd ~/Dropbox'
 
 # Composer
 alias ci='composer install'
