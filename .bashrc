@@ -33,10 +33,6 @@ alias cls='clear'
 alias close='exit'
 alias quit='exit'
 
-# Windows 'Hacks'
-alias shutdown='shutdown -s -t 0'
-alias restart='shutdown -r -t 0'
-
 # Composer
 alias ci='composer install'
 alias cu='composer update'
