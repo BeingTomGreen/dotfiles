@@ -26,6 +26,10 @@ alias pullstage='git pull staging master'
 alias rebasestag='git pull --rebase staging master'
 alias pushstage='git push staging master'
 
+alias pullprod='git pull production master'
+alias rebaseprod='git pull --rebase production master'
+alias pushprod='git push production master'
+
 # Navigation & Terminal stuff
 alias l='ls -l'
 alias la='ls -al'
