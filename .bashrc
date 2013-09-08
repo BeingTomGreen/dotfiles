@@ -22,6 +22,10 @@ alias pullom='git pull origin master'
 alias rebaseom='git pull --rebase origin master'
 alias pushom='git push origin master'
 
+alias pullstage='git pull staging master'
+alias rebasestag='git pull --rebase staging master'
+alias pushstage='git push staging master'
+
 # Navigation & Terminal stuff
 alias l='ls -l'
 alias la='ls -al'
