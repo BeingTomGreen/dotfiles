@@ -48,6 +48,7 @@ alias ci='composer install'
 alias cu='composer update'
 alias csu='composer selfupdate'
 alias cdump='composer dump-autoload --optimize'
+alias cr='rm -Rf vendor/ && composer install'
 
 # Vagrant
 alias v='vagrant'
