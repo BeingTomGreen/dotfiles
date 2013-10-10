@@ -1,3 +1,5 @@
+PS1='\w λ '
+
 # Generic git commands
 alias g='git'
 alias init='git init'
