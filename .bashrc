@@ -1,3 +1,7 @@
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+fi
+
 PS1='\w λ '
 
 # Generic git commands
@@ -8,6 +12,7 @@ alias clone='git clone'
 alias status='git status -sb'
 alias stash='git stash'
 alias reset='git reset HEAD --hard'
+alias checkout='git checkout'
 alias add='git add'
 alias pull='git pull'
 alias rebase='git pull --rebase'
