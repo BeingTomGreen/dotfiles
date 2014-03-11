@@ -6,7 +6,7 @@ These are heavily based on other peoples dotfiles, particularly those of [Holman
 
 I'm always open to suggestions!
 
-`install.sh` is left over from when I began using Linux a little more, although it's not perfect it worked at the time.
+[`install.sh`](https://github.com/BeingTomGreen/dotfiles/blob/master/install.sh) is left over from when I began using Linux a little more, although it's not perfect it worked at the time.
 
 #### Config
 
