@@ -17,4 +17,4 @@ If you want to use a global `.gitignore` file you will need to configure your `.
       excludesfile = /path/to/.gitignore
 ```
 
-See my `.gitconfig` as an example.
+See my [`.gitconfig`](https://github.com/BeingTomGreen/dotfiles/blob/master/.gitconfig) as an example.
