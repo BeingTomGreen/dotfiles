@@ -1,24 +1,27 @@
 [user]
-	name = Tom Green
-	email = kingofcuddles@gmail.com
+  name = Tom Green
+  email = kingofcuddles@gmail.com
 
 [push]
-	default = simple
+  default = simple
 
 [core]
-	autocrlf = input
-	excludesfile = ~/.gitignore
+  autocrlf = input
+  excludesfile = C:\\Users\\Tom\\.gitignore
 
 [alias]
-	st = status
-	ci = commit
-	br = branch
-	co = checkout
-	df = diff
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
 
 [color]
-	ui = auto
+  ui = auto
 [color "status"]
-	added = yellow
-	changed = green
-	untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
+
+[help]
+  autocorrect = 1
