@@ -25,3 +25,12 @@
 
 [help]
   autocorrect = 1
+
+[url "https://github.com/"]
+  insteadOf = gh:
+
+[url "https://gist.github.com/"]
+  insteadOf = gist:
+
+[url "https://bitbucket.org/"]
+  insteadOf = bb:
