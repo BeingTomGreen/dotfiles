@@ -18,9 +18,10 @@ alias push='git push'
 
 # Handy git utilities & one-liners
 alias adda='git add -A'
+alias remotes='git remote -v'
 alias ignored='git ls-files -o -i --exclude-standard'
 alias log='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset%Cgreen(%cr by %cn)%Creset" --abbrev-commit --date=relative'
-alias remotes='git remote -v'
+alias commitsbyuser='git shortlog -sn'
 
 # Interacting with origin
 alias pullom='git pull origin master'
