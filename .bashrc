@@ -47,6 +47,18 @@ alias close='exit'
 alias quit='exit'
 alias die='exit'
 
+# Handy file/folder access
+alias openvhosts='start C:/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf'
+alias openhosts='start C:/Windows/System32/drivers/etc'
+
+# Windows Programs
+alias wamp='start C:/wamp/wampmanager.exe'
+alias sublime='start "" "C:/Program Files/Sublime Text 2/sublime_text.exe"'
+
+# Windows Power options
+alias shutdown='shutdown -s -t 0'
+alias restart='shutdown -r -t 0'
+
 # Composer
 alias csu='composer selfupdate'
 alias ci='composer install'
