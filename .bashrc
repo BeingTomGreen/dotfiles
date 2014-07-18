@@ -65,6 +65,11 @@ alias ci='composer install'
 alias cu='composer update'
 alias cdump='composer dump-autoload --optimize'
 
+# Gulp
+alias gless='gulp build-less'
+alias gjs='gulp build-js'
+alias gw='gulp watch'
+
 # Vagrant
 alias v='vagrant'
 alias vstatus='vagrant status'
