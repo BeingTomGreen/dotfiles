@@ -51,7 +51,7 @@ alias die='exit'
 alias csu='composer selfupdate'
 alias ci='composer install'
 alias cu='composer update'
-alias cdump='composer dump-autoload'
+alias cdump='composer dump-autoload --optimize'
 
 # Vagrant
 alias v='vagrant'
