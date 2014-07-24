@@ -40,6 +40,7 @@ alias pushprod='git push production master'
 
 # Navigation & terminal stuff
 alias l='ls -lh'
+alias folders='ls -d */'
 alias ..='cd ../'
 alias ...='cd ../../'
 alias cls='clear'
