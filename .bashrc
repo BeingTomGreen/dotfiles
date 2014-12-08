@@ -65,6 +65,7 @@ alias csu='composer selfupdate'
 alias ci='composer install'
 alias cu='composer update'
 alias cdump='composer dump-autoload --optimize'
+alias creset='rm -Rf vendor/ && rm composer.lock && composer install'
 
 # Gulp
 alias gless='gulp build-less'
