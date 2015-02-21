@@ -6,8 +6,6 @@ These are heavily based on other peoples dotfiles, particularly those of [Holman
 
 I'm always open to suggestions!
 
-[`install.sh`](https://github.com/BeingTomGreen/dotfiles/blob/master/install.sh) is left over from when I began using Linux a little more, although it's not perfect it worked at the time.
-
 #### Config
 
 If you want to use a global `.gitignore` file you will need to configure your `.gitconfig` file to point to file:

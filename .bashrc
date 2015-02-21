@@ -15,6 +15,7 @@ alias rebase='git pull --rebase'
 alias commit='git commit -sm'
 alias amend='git commit --amend -sm'
 alias push='git push'
+alias tag='git tag'
 
 # Handy git utilities & one-liners
 alias adda='git add -A'

@@ -13,6 +13,7 @@
 ######################
 *.log
 *.sqlite
+error_log
 
 # OS generated files #
 ######################
@@ -26,6 +27,6 @@ Desktop.ini
 
 # DEV Files #
 ######################
-error_log
 *.key.php
 composer.phar
+/.idea
