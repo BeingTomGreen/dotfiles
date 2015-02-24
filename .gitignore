@@ -1,19 +1,25 @@
-# Compiled source #
-###################
-*.exe
+# DEV Files #
+######################
+*.key.php
+composer.phar
+.env
+/.idea
+/.vendor
+/node_modules
 
-# Packages #
-############
-*.7z
+# Packages & Compliled #
+########################
 *.rar
 *.tar
 *.zip
+*.jar
+*.exe
 
-# Logs and databases #
-######################
+# Logs & Database #
+###################
 *.log
-*.sqlite
 error_log
+*.sqlite
 
 # OS generated files #
 ######################
@@ -24,9 +30,3 @@ Icon?
 Thumbs.db
 $RECYCLE.BIN/
 Desktop.ini
-
-# DEV Files #
-######################
-*.key.php
-composer.phar
-/.idea
