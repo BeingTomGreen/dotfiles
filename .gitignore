@@ -1,6 +1,5 @@
 # DEV Files #
 ######################
-*.key.php
 composer.phar
 .env
 /.idea
