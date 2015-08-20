@@ -9,6 +9,7 @@ alias stash='git stash'
 alias pop='git stash pop'
 alias reset='git reset HEAD --hard'
 alias checkout='git checkout'
+alias branch='git branch'
 alias add='git add'
 alias pull='git pull'
 alias rebase='git pull --rebase'
@@ -20,9 +21,11 @@ alias tag='git tag'
 # Handy git utilities & one-liners
 alias adda='git add -A'
 alias remotes='git remote -v'
+alias branches='git branch -a'
 alias ignored='git ls-files -o -i --exclude-standard'
 alias log='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset%Cgreen(%cr by %cn)%Creset" --abbrev-commit --date=relative'
 alias commitsbyuser='git shortlog -sn'
+alias rollback="git revert HEAD^"
 
 # Interacting with origin
 alias pullom='git pull origin master'
@@ -65,14 +68,14 @@ alias restart='shutdown -r -t 0'
 alias csu='composer selfupdate'
 alias ci='composer install'
 alias cu='composer update'
-alias cdump='composer dump-autoload --optimize'
-alias creset='rm -Rf vendor/ && rm composer.lock && composer install'
+alias cdump='composer dump-autoload'
+alias creset='rm -Rf vendor/ && rm -f composer.lock && composer install'
 alias bossiscoming='rm -Rf vendor/ && rm composer.lock && composer install --profile -vvv'
 
 # Gulp
-alias gless='gulp build-less'
-alias gjs='gulp build-js'
-alias gw='gulp watch'
+alias less='gulp less'
+alias js='gulp js'
+alias watch='gulp watch'
 
 # Vagrant
 alias v='vagrant'
