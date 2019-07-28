@@ -68,7 +68,7 @@ alias bossiscoming='rm -Rf vendor/ && rm composer.lock && composer install --pro
 alias dc='docker-compose'
 alias dcstart='docker-compose up -d'
 alias dcstop='docker-compose stop'
-alias dcdown= 'docker-compose down'
+alias dcdown='docker-compose down'
 alias dcrestart='docker-compose restart'
 
 # Docker
