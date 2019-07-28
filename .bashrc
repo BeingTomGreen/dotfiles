@@ -56,14 +56,6 @@ alias die='exit'
 alias openvhosts='start C:/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf'
 alias openhosts='start C:/Windows/System32/drivers/etc'
 
-# Windows Programs
-alias wamp='start C:/wamp/wampmanager.exe'
-alias sublime='start "" "C:/Program Files/Sublime Text 2/sublime_text.exe"'
-
-# Windows Power options
-alias shutdown='shutdown -s -t 0'
-alias restart='shutdown -r -t 0'
-
 # Composer
 alias csu='composer selfupdate'
 alias ci='composer install'
@@ -72,13 +64,12 @@ alias cdump='composer dump-autoload'
 alias creset='rm -Rf vendor/ && rm -f composer.lock && composer install'
 alias bossiscoming='rm -Rf vendor/ && rm composer.lock && composer install --profile -vvv'
 
-# Gulp
-alias less='gulp less'
-alias js='gulp js'
-alias watch='gulp watch'
+# Docker compose
+alias dc='docker-compose'
+alias dcstart='docker-compose up -d'
+alias dcstop='docker-compose stop'
+alias dcdown= 'docker-compose down'
+alias dcrestart='docker-compose restart'
 
-# Vagrant
-alias v='vagrant'
-alias vstatus='vagrant status'
-alias vhalt='vagrant halt'
-alias vssh='vagrant ssh'
+# Docker
+alias dlist='docker ps -as'
