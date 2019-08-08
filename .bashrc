@@ -73,3 +73,6 @@ alias dcrestart='docker-compose restart'
 
 # Docker
 alias dlist='docker ps -as'
+
+# MISC
+alias wpscan='winpty docker run -it --rm wpscanteam/wpscan --url'
