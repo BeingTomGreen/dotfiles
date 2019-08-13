@@ -76,3 +76,5 @@ alias dlist='docker ps -as'
 
 # MISC
 alias wpscan='winpty docker run -it --rm wpscanteam/wpscan --url'
+
+alias please='sudo !!'
