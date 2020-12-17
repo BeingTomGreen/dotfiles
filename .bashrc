@@ -52,10 +52,6 @@ alias close='exit'
 alias quit='exit'
 alias die='exit'
 
-# Handy file/folder access
-alias openvhosts='start C:/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf'
-alias openhosts='start C:/Windows/System32/drivers/etc'
-
 # Composer
 alias csu='composer selfupdate'
 alias ci='composer install'
@@ -74,7 +70,20 @@ alias dcrestart='docker-compose restart'
 # Docker
 alias dlist='docker ps -as'
 
+# Devilbox
+# https://github.com/louisgab/devilbox-cli
+alias db='devilbox'
+alias dbr='db restart -s'
+alias dbc='db c -p -m'
+
+dbphp() {
+    db c --php=$1
+}
+
+dbmysql() {
+    db c --mysql=$1
+}
+
 # MISC
 alias wpscan='winpty docker run -it --rm wpscanteam/wpscan --url'
-
 alias please='sudo !!'
