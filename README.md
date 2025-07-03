@@ -1,18 +1,17 @@
-## Dotfiles
+# dotfiles
 
-Since I develop mainly in Windows, these are somewhat lacking, but it works for me.
+My [dotfiles](http://dotfiles.github.io/), based heavily on the work of many other wonderful humans.
 
-These are heavily based on other peoples dotfiles, particularly those of [Holman](https://github.com/holman/dotfiles) and [Charlie Somerville](https://github.com/charliesome/conf).
+## Setup
 
-I'm always open to suggestions!
+I use the wonderful [`chezmoi`](https://www.chezmoi.io/) to manage my `dotfiles`.
 
-#### Config
+I install `chezmoi` and setup my dotfiles via an [`ansible` role](https://github.com/BeingTomGreen/ansible-role-chezmoi) - however you're free to use `chezmoi`'s built in mechinism for this:
 
-If you want to use a global `.gitignore` file you will need to configure your `.gitconfig` file to point to file:
-
-```
-    [core]
-      excludesfile = /path/to/.gitignore
+```bash
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
 ```
 
-See my [`.gitconfig`](https://github.com/BeingTomGreen/dotfiles/blob/master/.gitconfig) as an example.
+## License
+
+[MIT](LICENSE)

@@ -1,0 +1,62 @@
+# Navigation
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Shortcuts
+
+alias docs="cd ~/Documents"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias wfuk="cd ~/wfuk"
+alias repos="cd ~/repos"
+
+# IP Address(es)
+
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="hostname -I | cut -d' ' -f1'"
+alias localips="ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | grep -v 127.0.0.1"
+
+# Generic git commands
+
+alias clone='git clone'
+alias remote='git remote'
+alias s='git status -sb'
+alias status='git status -sb'
+alias stash='git stash'
+alias pop='git stash pop'
+alias reset='git reset HEAD --hard'
+alias checkout='git checkout'
+alias branch='git branch'
+alias add='git add'
+alias pull='git pull'
+alias rebase='git pull --rebase'
+alias commit='git commit -sm'
+alias amend='git commit --amend -sm'
+alias push='git push'
+alias tag='git tag'
+
+# Handy git utilities & one-liners
+
+alias adda='git add -A'
+alias remotes='git remote -v'
+alias branches='git branch -a'
+alias ignored='git ls-files -o -i --exclude-standard'
+alias log='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset%Cgreen(%cr by %cn)%Creset" --abbrev-commit --date=relative'
+alias commitsbyuser='git shortlog -sn'
+alias rollback="git revert HEAD^"
+
+# Interacting with origin
+
+alias pullom='git pull origin master'
+alias rebaseom='git pull --rebase origin master'
+alias pushom='git push origin master'
+
+# Navigation & terminal stuff
+
+alias die='exit'
+alias quit='exit'
+alias :q='exit'
+alias cls='clear'
